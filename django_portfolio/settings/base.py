@@ -71,7 +71,7 @@ WSGI_APPLICATION = 'django_portfolio.wsgi.application'
 
 load_dotenv(find_dotenv())
 
-DATABASES = {'default': dj_database_url.django_portfolio(default= 'sqlite:///db.sqlite3', conn_max_age=600)}
+DATABASES = {'default': dj_database_url.config(default= 'sqlite:///db.sqlite3', conn_max_age=600)}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
