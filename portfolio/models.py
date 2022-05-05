@@ -7,5 +7,8 @@ from django.db.models.fields.files import ImageField
 class Project(models.Model):
     title= CharField(max_length=100)
     description= TextField(max_length=500)
-    image= ImageField(upload_to='portfolio/images')
+    image= ImageField(upload_to='portfolio/images', blank=True)
     url= URLField(blank=True)
+
+    def __str__(self):
+        return self.title
