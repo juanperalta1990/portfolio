@@ -50,11 +50,11 @@ MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/media/'
 
 #Heroku Loggin
 
-DEBUG_PROPAGATE_EXEPTIONS = True
+DEBUG_PROPAGATE_EXCEPTIONS = True
 
 LOGGIN = {
     'version': 1,
-    'disabled_existing_loggers': False,
+    'disable_existing_loggers': False,
     'formatters': {
         'verbose': {
             'format' : "[%(asctime)s] %(levelname)s [%(name)s:%(lineno)s] %(message)s",
