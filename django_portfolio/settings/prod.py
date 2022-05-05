@@ -78,5 +78,5 @@ LOGGIN = {
 }
 
 # Heroku Settings
-dango_on_heroku.settings(local())
+django_on_heroku.settings(local())
 del DATABASES['default']['OPTIONS']['sslmode']
