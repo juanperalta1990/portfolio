@@ -10,11 +10,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
-import dj_database_url
-from decouple import config
-from dotenv import load_dotenv, find_dotenv
-
 from pathlib import Path
+
+import dj_database_url
+from dotenv import  load_dotenv, find_dotenv
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent.parent
@@ -72,7 +71,7 @@ WSGI_APPLICATION = 'django_portfolio.wsgi.application'
 
 load_dotenv(find_dotenv())
 
-DATABASES = {'default': dj_database_url.config(default= 'sqlite:///db.sqlite3', conn_max_age=600)}
+DATABASES = {'default': dj_database_url.django_portfolio(default= 'sqlite:///db.sqlite3', conn_max_age=600)}
 
 # Password validation
 # https://docs.djangoproject.com/en/4.0/ref/settings/#auth-password-validators
