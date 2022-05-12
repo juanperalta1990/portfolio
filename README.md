@@ -6,9 +6,9 @@
 3. [Despliegue](#despliegue)
 ### Información general
 ***
-Este es mi Portfolio. Decidí usar el framework Django y por poco que lo aproveche en este framework tan poderoso, pero me sirvio de practica para continuar mi aprendizaje.
+Este es mi Portfolio. Decidí usar Django y por poco que aproveche las ventajas de este framework tan poderoso en esta aplicacion, me sirvió de práctica para continuar mi aprendizaje. Proximamente quiero agregar una seccion de blog para publicar cosas de mi interés y mas que nada seguir aprendiendo y practicando.
 ***
-Subiré todos mis proyectos personales y cursos aquí hasta lograr mi objetivo de trabajar para una Startup.
+Subiré todos mis proyectos personales y cursos realizados aquí hasta lograr mi objetivo de trabajar para una Startup.
 ## Tecnologías
 ***
 Una lista de tecnologías utilizadas en el proyecto:
