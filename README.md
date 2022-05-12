@@ -1,4 +1,4 @@
-#Mi Protfolio
+# Mi Protfolio
 ## Tabla de contenido
 1. [Información general](#información-general)
 2. [Tecnologías](#tecnologías)
